@@ -1,5 +1,5 @@
 <p align="center"> 
-   :sparkles: Welcome to the Faylab Lab Manual! :sparkles: 
+   Welcome to the Ding Lab Manual!
 </p>
 
 
