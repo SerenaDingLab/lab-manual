@@ -19,7 +19,7 @@ book:
 
   chapters: 
     - index.qmd
-    - 02_SOPS.qmd
+    - 02_SOPs.qmd
 
 
 
