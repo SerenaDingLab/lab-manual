@@ -14,3 +14,9 @@ The content for this book was developed using Quarto based on a helpful [tutoria
 ------------------------------------------------------------------------
 
 [![](img/creative_commons.png)](http://creativecommons.org/licenses/by/4.0/){fig-alt="Creative Commons License"}This lab is licensed under a [Creative Commons Attribution 4.0 International License.](http://creativecommons.org/licenses/by/4.0/)
+
+------------------------------------------------------------------------
+
++------------------------------------------------+--------------------------------------+
+| ![](img/MPI_AB_logo.png){width="487"}          | ![](img/UniKN_Logo.png){width="239"} |
++------------------------------------------------+--------------------------------------+

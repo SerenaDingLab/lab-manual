@@ -1,0 +1,75 @@
+# Standard Operating Procedures {#sops}
+
+
+
+[**Population Synchronization of Worms by Bleaching**](documents/SOP_Bleaching_V2.qmd)
+\
+To synchronise populations of *C. elegans* by bleaching to obtain individuals in the same life stage. The same procedure likely works for *C. briggsae* and *C. tropicalis*.
+
+**SOP_Fluorescence_Aggregation_Imaging**
+
+-\> For imaging behaviour of *C. elegans* using the AxioZoom fluorescence microscope. 
+
+**SOP_Freezing_Bacteria**
+
+-\> Bacterial glycerol stocks are important for long-term storage. For more frequent and immediate use, bacteria can be streaked on LB agar plates that can be maintained at 4°C for a few weeks.
+
+**SOP_Pouring_Agar_Plates**
+
+-\> Nematode Growth Medium (NGM) agar is used for regular laboratory maintenance of *C. elegans*. This protocol uses the Dose It peristaltic pump to pour NGM agar into Petri dishes.
+
+**SOP_pH_Meter**
+
+-\> This protocol is for using and calibrating the Hanna Instruments™ pH Laboratory Meter HI 2211-02 in ZT0638.
+
+**SOP_Twostep_OP50**
+
+-\> For culturing OP50 bacteria to be used as food in regular maintenance of *C. elegans*, *C. briggsae* and *C. tropicalis*. The purpose of two-step inoculation is to harvest the bacteria at its exponential, or log growth phase.
+
+**SOP_Streaking_Bacteria**
+
+-\> This protocol should be used if you want to isolate an individual clonal population (single colony) of bacteria from a frozen glycerol stock. This protocol explains how to isolate a single bacterial colony by streaking it onto a LB agar plate.
+
+**SOP_Spot_Bleaching**
+
+-\> If you only need a small number of semi-synchronized *C. elegans* or if you simply need to remove yeast or bacterial contaminants, this protocol is more simple and less time-consuming than full-scale bleaching.
+
+**SOP_NoPeptone_Agar_Plates**
+
+-\> Imaging plates are made with NGM containing no bactopeptone to prevent the seeded bacteria from growing too much. High bacterial growth would result in poor imaging. This protocol uses the Dose It peristaltic pump to pour 35mm imaging plates.
+
+**SOP_Measuring_Optical_Density_of_OP50**
+
+-\> Before OP50 bacteria is aliquoted into small falcon tubes, the optical density (OD600) should be measured using a spectrophotometer for documentation purposes.
+
+**SOP_Making_LB_Agar_Plates**
+
+-\> LB agar plates (with or without antibiotic) are used for streaking bacteria for growth as single colonies for subsequent culturing as worm food.
+
+**SOP_M9_Solution**
+
+-\> Used to maintain *C. elegans* in liquid for short periods of time.
+
+**SOP_Bacteria_Liquid_Culture**
+
+-\> Used for inoculating an overnight culture bacteria in liquid LB.
+
+**SOP_HighDensity_Agar_Plates**
+
+-\> For growth of worms at a high density on NGM agar plates. This protocol uses the Dose It peristaltic pump to pour NGM agar into Petri dishes.
+
+**SOP_Freezing_Worms**
+
+-\> For long-term storage of *C. elegans* in liquid nitrogen (−196°C) and at -80°C.
+
+**SOP_Loopbio_Imaging**
+
+-\> For imaging aggregation behaviour worms using the Loopbio rigs.
+
+**SOP_Concentrated_Bacteria_Stock**
+
+-\> For making a concentrated stock of bacteria for use in liquid culture of *C. elegans*.
+
+**SOP_Lysis**
+
+-\> For extracting DNA from Nematodes

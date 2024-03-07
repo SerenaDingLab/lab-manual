@@ -1,0 +1,20 @@
+<div align="center">
+
+**STANDARD OPERATING PROCEDURE**
+
++------------------------------------------------+--------------------------------------+
+| ![](./MPI_AB_logo.png){width="487"}          | ![](./UniKN_Logo.png){width="239"} |
++------------------------------------------------+--------------------------------------+
+
+| | |
+|---------:|:----------------------------:|
+| Title   | **Population Synchronization of Worms by Bleaching** |
+: {tbl-colwidths="[10,90]"}
+
+| | | | |
+|:----:|:----:|:----:|:----:|
+| Short Title, ID | *Bleaching Worms* | Created on | *Dec. 26, 2021* |
+| Status | ** | Related SOP | ** |
+| Safety Instruction |**  | Category |** |
+| Author | *Nazli Hassanpour, Technical Assistant* | Approved by | ** |
+: {tbl-colwidths="[10,40,10,40]"}
