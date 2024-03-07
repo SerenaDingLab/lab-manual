@@ -2,7 +2,7 @@
 
 
 
-[**Population Synchronization of Worms by Bleaching**](documents/SOP_Bleaching_V2.qmd)
+[**Population Synchronization of Worms by Bleaching**](documents/SOP_Bleaching_V2.html)
 \
 To synchronise populations of *C. elegans* by bleaching to obtain individuals in the same life stage. The same procedure likely works for *C. briggsae* and *C. tropicalis*.
 
