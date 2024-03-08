@@ -20,6 +20,8 @@ book:
   chapters: 
     - index.qmd
     - 02_SOPs.qmd
+    - 03_Lab_Duties.qmd
+    - 04_Lab_Work_and_Organization.qmd
 
 
 

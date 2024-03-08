@@ -1,0 +1,160 @@
+# Lab Duties  {#duties}
+
+## Individual Assignments
+
+*Updated 20 February 2024*
+
+### Outsourced
+
+Building management [as needed] – Jan Peters
+
+Dishes wash, dry, autoclave [weekly] –HiWi Alisha
+
+Non-biological waste disposal [weekly] – HiWi Alisha
+
+Biological waste disposal [weekly] – HiWi Alisha
+
+Media prep and NGM plate pouring [bi-weekly on Tuesdays] – Jayme
+
+
+### Own group
+
+Temperature logs [monthly] – Ryan
+
+OP50 stock [Monthly] – Ryan (Backup: Iris)
+
+Purchasing – Individual users 
+
+Consumables inventory (add new items only) – Individual users
+
+Equipment delivery - Ryan
+
+Equipment inventory – Ryan
+
+Protocols – Individual users 
+
+Data and computing infrastructure – Narcís
+
+Genetic engineering biosafety [as needed] – Michael Mende + Iris
+
+Nagoya compliance – Serena
+
+Strains database – Serena + Youn Jae
+
+Strains freezing and refreezing – users 
+
+Group meeting rota – Youn Jae
+
+Overleaf license manager – Narcis
+
+Adobe Illustrator license manager – Daniela
+
+Media officer + HiWi coordination – Ryan
+
+<br>
+Absence of Jayme: Jobs taken care by Alex/Domi
+
+Absence of Alisha: Waste management goes as pairwise rota.
+<br>
+
+## Meetings
+
+### Group meeting 
+
+We meet weekly on Tuesdays from 2-4pm. Everyone is expected to be at the meeting whenever possible. The goal of group meetings is for the presenter to share what they have been doing and to get useful ideas and discussion from the group. Attend lab meeting actively – be involved and actively input into the projects of others so we can learn from each other. To maintain a good focus, please do not email or work on your computer during lab meeting.
+
+Rota made by **Youn Jae**, available at: `/Volumes/gr-gnb-share/lab_meeting_schedule.xlsx`
+
+Two types of weekly meetings, alternating based on the rota:
+
+**Standard data presentation**
+
+Data presentation based on rota (20 min – 1 hour)
+
+* Discussing what you’ve been working on with questions/input
+
+* Can be in any format you want – presentation or not
+
+* Remind the group of the big question you are addressing, the specific smaller question you are working on, with relevant background. Present the hypothesis you are testing. Then present the experiment(s) you performed to address this hypothesis. Show the data - show original data, even if (or especially if) the experiment has not worked. This allows you to get useful input. Label your data clearly. Give the conclusion, show a summary or model if relevant. Discuss the next experiment. At the end of your lab meeting, discuss “what to do next” and why. 
+
+**Journal Club**
+
+* Presenter picks paper, distributes paper by email a week before 
+
+* Presents summary and main points
+
+<br>
+*The last 30 minutes of each meeting will be used for discussing lab business*
+
+### One on ones (weekly or ad hoc)
+Serena has office hours Monday afternoons. You can choose whether to have fixed weekly slots, or to arrange meetings ad hoc
+
+* For fixed weekly slots, cancellations should be communicated the Friday before, if slots are not needed
+
+### Seminars (weekly)
+Seminars are always comprehensively announced via the MPI newsletter that’s sent out Monday mornings and tend to only take place during term times. There are several weekly seminar series, you should try to go to at least one a week, and are obviously not expected to go to all of them! :-)
+
+* Mondays
+    + CASCB seminar (Cluster) – 11:45 AM
+    
+* Tuesdays
+    + MPI Institute Seminar – 10:30 AM
+    
+* Thursdays
+    + UKN Biology Department Seminar – 12:15 PM
+    + Data Analysis Group - 2:00 PM - 3:00 PM
+    
+* Fridays
+    + Collective Behavior Department Meeting – 3:00 PM
+    
+### Personal Development Review (yearly)
+This is a private conversation between the team member and Serena, designed to define longer term goals and outline specific actions for achieving them. This occurs once a year, beginning 6 or 12 months after the start of the position. The focus is really on personal development so take this as an opportunity to really think about what next steps may look like after your time in this lab and how and who can help you with what, in order to achieve it. 
+
+
+There is a form to be filled out by the team member ahead of the meeting, use this as a tool to really reflect and think big. The form is used as a guidance for discussion with the line manager. The forms can be found at `gr-gnb-share/info_forms/personal_development_review_forms`.
+
+For PhD students, PDR is optional in addition to regular TAC meetings
+
+After the review with Serena, revise and send the form for confidential record keeping.
+
+### Lab Retreats (yearly)
+Going away once a year, 2-3 nights:
+
+* 2022 spring retreat organised by Emma and Serena - Möggingen
+
+* 2023?
+
+### Institute Retreat 
+Just for information:
+
+* MPI Institute Retreat - for all MPI employees - when?
+
+* IMPRS Retreat - for all PhD students - once a year, ~November
+
+* Cluster Retreat - for Cluster people and sometimes open to more, Cluster decides - two times a year, one in April, one in October
+
+### Conferences
+
+Conference attendance is encouraged to disseminate results, gather feedback, and forge new interactions.
+
+For in-person conference attendance, it is expected that you present results in some way: poster or talk. For online conference, the requirement is less rigid.
+
+* International Worm Meeting (~3000 attendees) - every other year, usually in June in LA. Worm community general assembly on every topic on worm.
+
+* European Worm Meeting (~500 attendees)/ C. elegans topic meetings (~500 attendees, neurobiology and the Behaviour one is the relevant one for us) - the off year between the International Worm Meeting, usually June/July. EWM is all topics, Neuro meeting is very cell molecular neuroscience heavy, with some behaviour
+
+* American Physical Society meeting (~10,000 attendees), usually some focus sessions on behaviour and collective behaviour - every year there’s a March meeting and an April meeting, in the US
+
+* COSYNE (how big?), computational neuroscience and behaviour, every year in March (https://www.cosyne.org/).
+
+* Animal Behaviour Society, main meeting every year in July. A number of small sectional meetings throughout the year in various locations. Conference about more evolutionary directed questions on animal behaviour.
+
+* International Society of Behavioral Ecology (~1000 attendees), every 2 years in July-August. More general conference on animal behaviour. Several topics from observational to experimental research.
+
+* Evolution, every year in June (~1500 attendees). Research on evolutionary biology.
+
+* Society for Integrative and Comparative Biology (big, but how big?), annual in January. Great place to talk about novel behaviours to pitch ideas
+
+* Biology for Physics - Barcelona, July. (Two editions). 2022 Topic: General aspects of evolution from the perspective of physics. More info: (http://www.biologyforphysics.org/)
+
+

@@ -3,21 +3,21 @@
 **STANDARD OPERATING PROCEDURE**
 
 +------------------------------------------------+--------------------------------------+
-| ![](https://raw.githubusercontent.com/SerenaDingLab/lab-manual/main/img/MPI_AB_logo.png){width="487"}  | ![](https://raw.githubusercontent.com/SerenaDingLab/lab-manual/main/img/UniKN_Logo.png){width="239"} |
+| ![](https://raw.githubusercontent.com/SerenaDingLab/lab-manual/main/img/MPI_AB_logo.png){width="487"}   ![](https://raw.githubusercontent.com/SerenaDingLab/lab-manual/main/img/UniKN_Logo.png){width="239"} |
 +------------------------------------------------+--------------------------------------+
 
 | | |
-|---------:|:----------------------------:|
+|:---------|:----------------------------:|
 | Title   | **Population Synchronization of Worms by Bleaching** |
 : {tbl-colwidths="[10,90]"}
 
 | | | | |
-|:----:|:----:|:----:|:----:|
+|:----|:----:|:----|:----:|
 | Short Title, ID | *Bleaching Worms* | Created on | *Dec. 26, 2021* |
 | Status | ** | Related SOP | ** |
 | Safety Instruction |**  | Category |** |
 | Author | *Nazli Hassanpour, Technical Assistant* | Approved by | ** |
-: {tbl-colwidths="[10,40,10,40]"}
+: {tbl-colwidths="[10,40,15,35]"}
 
 <div align="left">
 **PURPOSE/ABSTRACT:**

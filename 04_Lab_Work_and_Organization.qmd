@@ -1,0 +1,252 @@
+# Lab Work and Organisation {#general_lab}
+ 
+## Planning work
+ 
+I strongly encourage you to use a weekly calendar to plan your experiments. You should have at least 2 weeks planned in advance, and possibly your whole next month. You should know when arriving in the lab in the morning what you have to do that day and in which order it is organised to best use your time.
+ 
+## Notebooks
+
+It is imperative that you keep organised and accurate lab notebooks that have tables of contents. There should be enough detail for anyone to be able to do again what you did.  Note times and dates of experiments, names of samples and where they came from, and brief protocol points (amounts of materials used, etc). Any unusual details should also be noted. Lab notebooks should NEVER leave the premise of the University and should be returned to the lab when you leave the lab at the end of your project.
+
+## Lab databases
+`smb://gnb-store01.esc.mpcdf.mpg.de/gr-gnb-share/strains_chemical_equipment_database`
+
+**Inventory of Lab Equipment:** serial numbers, manufacturer, make and model, product links etc.
+
+**Inventory of Consumables:** catalogue and quantity information of Petri dishes, pipettes, reagents, chemicals, autoclave bags, etc.
+
+**Worm Strains Database:** strain name, genotype, -80C freezer location, for strains of C.elegans, C.briggsae, C.tropicalis
+
+**Bacteria Strains Database:** bacteria type, antibiotic resistance, growth condition, -80C freezer location, safety level info
+
+**Safety Datasheets:** SDS basic safety information, toxicity, flammability, etc.
+
+<br>
+
+##Data storage and backup:
+ 
+### Group share
+
+Networked group share `/Volumes/gr-gnb-share/data` should be the one and only source of all experiment data. Do not duplicate experiment data on external hard drives, laptops, acquisition computers, group share etc. unless in exceptional circumstances such as: needing large datasets to work remotely that is slow to read over VPN; working in the field. 
+
+After acquiring experimental data, move the data to group share immediately so it is backed up ready for subsequent storage and analysis. 
+
+* We have 100TB storage in groupshare currently, and this can be expanded as more data is collected. When group share reaches 70-80% of capacity, and/or when very large datasets are expected to be generated, please discuss with Narcís and Serena re: data storage requirements, so we can request disk expansion accordingly. 
+
+* Connect to group share via ethernet from your MPI-networked offices, with wifi switched off. When off site, you may access group share via VPN, although this is much slower to read and write. Hence, if extended remote working involving large datasets is expected, you may copy the data to your computer or external HD to use; as soon as you return to the office, changes should be pushed back onto group share. 
+
+* Our groupshare lives on the server at the Max Planck Computing and Data Facility in Garching and is automatically backed up daily. The connection from Uni to MPCDF breaks at 1 am daily for security reasons, so if overnight jobs using data on group share is intended, contact Narcís for help with scripting a reconnection step to allow uninterrupted workflow. 
+
+* If group share is down unexpectedly, contact IT all.it@ab.mpg.de immediately requesting them to restore the connection with the highest priority. Please copy Narcís and Serena into the correspondence. 
+
+* If you accidentally delete something from group share, contact IT all.it@ab.mpg.de immediately with the highest priority. Please copy Narcís and Serena into the correspondence. 
+
+### Archive data
+
+Datasets that you are not expecting to touch for the next 5 years can be archived on tape. Retrieving data from tape takes time and is cumbersome, so do not move data for exclusive storage on tape unless you are very sure you won’t need that data for a long time. Speak with Narcís and Serena about moving data onto tape, so we can request accordingly. 
+
+### Personal share
+
+In addition to group share, each user also has a private personal share for storing data with different access permissions. Personal share infrastructure is set up identically to group share, except with regard to user permissions. 
+
+*Please keep personal share for work purposes only :-)*
+ 
+### Laptop back up
+
+The type of data on your work computer should only be temporary working documents, duplicate data (only as needed in exceptional circumstances), etc. Your work laptop is automatically backed up daily at midday when plugged into the MPI network. 
+
+* When taking the laptop away from the office for several days (such as over holiday period), manually run the backup software (IBM Spectrum Project, it is installed in your computer by IT) or use an external hard drive for backup as needed. If some problem, contact IT.
+
+### Keeper
+
+More info can be found here: [https://keeper.mpdl.mpg.de/accounts/login/?next=/](https://keeper.mpdl.mpg.de/accounts/login/?next=/)
+
+* Works like Google drive/Dropbox and is Max Planck-approved
+
+### Github 
+
+Back up your code on Github daily when working on analysis.
+
+The lab GitHub account is [SerenaDingLab](https://github.com/SerenaDingLab).
+
+## Data management
+
+We work with large imaging datasets so a working system of data management and work flow is absolutely essential.
+
+**Project folder structure:** 
+
+* For each project (the video files that you wish to run Tierpsy), make a separate directory in groupshare in the format of `/Volumes/gr-grb-share/data/username/projectname`. Example directory: `/Volumes/gr-gnb-share/data/Serena/ALS`. 
+
+* Each project folder contains four subdirectories and this folder structure should be standard across all project directories, to ensure that Tierpsy runs properly, and that each project directory contains standardised essential information that another user may need. 
+
+    + `.../RawVideos` contains all raw imaging data acquired directly from imaging systems. 
+    + `.../MaskedVideos` and `.../Results` are automatically generated by Tierpsy, with subdirectory structures identical to that inside “RawVideos”
+    + `.../AuxiliaryFiles` is the catch-all for everything else user-specified, and should include the following
+    
+* A markdown file outlining the overall description of the project (i.e. READ_ME.md)
+
+* Experimental metadata containing all details of the experimental work that relate to the dataset
+
+* `.json` file used to run Tierpsy that gave rise to the current version of tracking results
+
+* Experimental protocols or a text file pointing to the path of it if protocols are stored elsewhere, experimental planning info, etc. 
+
+<br>
+
+## Computing resources and workflow
+
+### General workflow
+
+* Data collection on rigs → move data to group share under “RigRawVideos” → move data from “RigRawVideos” to “data” under your specific project directory’s “RawVideos” → run Tierpsy, process from “RawVideos”, and Tierpsy generates “MaskedVideos” and “Results” with the same folder structure as the “RawVideos”. Individual experimenter should run this whole workflow. 
+
+* All the downstream analysis can then take place from “/Results”. You can also view tracked videos using Tierpsy Viewer by reading from “MaskedVideos”. 
+
+
+### Computing resources
+
+For running Tierpsy or simulation, you can run:
+
+* MacPro 24 cores: for running 24 instances in parallel
+    + For remote access, install AnyDesk (With Max Planck Licence) (Ask Narcís)
+    
+* Locally on your laptop: for small test datasets (4 instances in parallel).
+
+* Computing cluster: option to run even larger datasets, ask Narcís.
+    + Requires a MPCDF account for access. More info: (https://docs.mpcdf.mpg.de/)
+
+<br>
+
+## Imaging Systems
+
+`/Volumes/gr-gnb-share/strains_chemical_equipment_database/Ding lab imaging systems.xlsx` + Equipment Database
+	 	 	 	
+* Loopbio imaging Rig (sd-motif): Arigog01, Arigog02, Arigog03, Arigog04 
+
+* AxioZoom v16 Fluorescence Microscope: Axi
+
+* Stemi 508 M stand x2: - which ones are modified?
+    + Stemi 508 M stand (Daniela): Curiosity
+    + Stemi 508 M stand (Z846): Square foot
+
+* Loopbio Microscope (kn-crec-50): Stemi 508 LAB stand x6: - which ones are modified?
+    + Stemi 508 LAB stand (Youn Jae): Lab Stemi
+    + Stemi 508 LAB stand (Nazli): Hedwig
+    + Stemi 508 LAB stand (Serena): Kiki
+    + Stemi 508 LAB stand: Dobby
+    + Stemi 508 LAB stand: Gandalf
+    + Stemi 508 LAB stand: Dementor
+
+<br>
+
+## Rooms 
+
+**Contact Katja Anderson for all room access requirements**
+
+### Group 1: offices
+
+**ZT921**	office_AG_Ding (Muffin Room)
+
+**ZT1025**	office_AG_Ding (Muggle Room)
+
+**ZT911**	meeting_room_communal
+
+**ZT1012**	meeting_room_communal
+
+**Z802**	lab_communal_workshop
+	
+### Group 2: labs
+
+**Z837**	lab_AG_Ding_main_lab (The Great Hall)
+
+**Z836**	lab_AG_Ding_server_room (Dumbledore‘s Office)
+
+**Z835**	lab_AG_Ding_ behaviour_room (Submarine of Secrets)
+
+**Z844**	lab_AG_Ding_equipment_room (Hagrid’s Swamp)
+
+**Z846**	lab_AG_Ding_behaviour_room (Dungeon of Azkaban)
+
+**Z840**	lab_AG_Ding_storage (Room of Requirement)
+
+**Z849**	lab_communal_autoclave
+
+**Z839**	lab_communal_fluorescence_microscopy
+	
+### Group 3: molecular labs
+
+**Z838**	lab_AG_Wikelski_molecular
+
+**ZT637**	lab_communal_molecular
+
+**ZT638**	lab_communal_molecular
+
+<br>
+
+## Ordering Worm Strains
+
+You can request your own strains: look to see what’s available and try to group orders because they tend to get stuck in customs (it can take 1 - 2 months for them to arrive - plan for this). 
+
+* Serena has been doing the ordering as she has a CGC account.
+
+* We have a strain database in the groupshare. Notify Surabhi and Serena after ordering a new strain and add information to the database.
+
+    + Pre-allocate tube locations in the freezer for the strains on this document
+    
+    + Check in with Serena 1-2 months after ordering if strains have not turned up.
+    
+* When new strains arrive:
+    + After receiving the strain, they should be frozen down as soon as possible. Store newly received strain at 15˚C until frozen. Never throw away the original growth plate until the strain is frozen down and tested fine for survival.
+
+    + Give strain to appropriate person who requested it
+
+    + Refer to protocol: [**Freezing Strains**]()
+        -	In short: chunk straight away (if not keep at 15˚C), clean, freeze
+        
+    + Chunk strain immediately and allow for repopulation
+    
+    + Spot bleach until you get rid of the contamination
+
+    + Starve them as L1s and freeze at the earliest opportunity
+
+    + Pay attention to the strain
+        -	Make sure the mutation won’t be one that can be lost by chunking.
+
+    + Once you have the vials ready ask **Surabhi** to move them into physical collections
+
+    + **Reasons for freezing:** population drift from the original -> you can get many mutations
+
+    + We freeze 6 vials
+    -	Take one out to test thawing to check that it worked
+    -	3 strains stay in Z06 -80 freezer
+    -	2 strains stay in ZT06 -80 freezer
+
+   + Give the freeze vials and the strain and genotype info to **Surabhi** right away so she can put the strain into the collection.  Make sure you get the entire genotype for a strain (some labs send just a plate with sketchy details) and a strain name (otherwise ask immediately for the missing info).
+   
+* New strains should be phenotyped and genotyped (if possible) before using them (e.g. genotyped by PCR).  It is common that received strains are not correct!
+
+* If we need a strain out of the lab collection, **only Surahbi or Serena** are allowed, but you can access -80 yourself to freeze your strains and remove your tester vial. **Surabhi or Serena** will put your newly frozen strains in the lab stock boxes. 
+
+* When retrieving strains from frozen stock, we thaw the whole vial each time. Strains must be re-frozen before the last vial from frozen stock is taken from the Z06 freezer. The two vials at ZT06 should in principle never be touched, and only used in emergency cases (i.e. disaster strikes and we lose everything in Z06 freezers; someone really forgot to re-freeze the strain from the last vial in Z06 freezer and there is no more, but really, this is bad news and should not happen!)
+
+## Bacteria Frozen Collection
+
+After receiving the strain, they should be frozen down as soon as possible. Store newly restrained strain at 4˚C until frozen. Never throw away the original growth plate until the strain is frozen down and tested fine for survival.
+
+* To freeze newly received bacteria, streak onto a plate containing the corresponding medium listed in the database. Then grow a liquid culture with selection. From that, freeze the bacteria. Follow the protocol found where?
+
+* Depending on the bacteria, it may need to be grown in a specific way
+    + Some bacteria carry plasmids (circular) that should be selected for, grow the bacteria in the selective medium. 
+        -	Plasmid: extrachromosomal material in bacteria, sometimes carrying selective markers such as antibiotic resistance gene (i.e. OP50-GFP is transformed with a plasmid carrying both GFP and ampicillin resistance). This makes it easy to isolate the transformed cell with the desired insert in it. Refer to protocol.
+
+* Stock has 6 intact vials as stock to prevent loss from contamination.
+
+* When restreaking from frozen stock, scrape the top of the frozen vial with a fresh sterile tip (keep a separate box of tips for frozen bacteria only to keep them super clean!) and streak onto a plate. Bacteria should be restreaked from frozen every month. 
+
+## Requests/ordering reagents and strains
+ 
+When you request a reagent or protocol from someone external, copy Serena into all of the email correspondence.  For CGC strains, gather requests from the whole group and send Serena an email for what you need ordered.
+
+If you notice that a reagent is running low, order a new supply BEFORE we run out. We have plenty of storage space and supply situation is volatile, so rather play on the safe side for consumables that will keep. 
+
+
+
